@@ -5,5 +5,5 @@
 
 void app_main(void)
 {
-
+    xTaskCreatePinnedToCore();
 }
