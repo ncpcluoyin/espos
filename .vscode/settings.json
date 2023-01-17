@@ -8,5 +8,7 @@
         "board/esp32-bridge.cfg"
     ],
     "idf.pythonBinPath": "/home/luoyin/.espressif/python_env/idf5.0_py3.10_env/bin/python",
-    "idf.toolsPath": "/home/luoyin/.espressif"
+    "idf.toolsPath": "/home/luoyin/.espressif",
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART"
 }
