@@ -3,9 +3,9 @@
 
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
-typedef struct taskmanager_info_t
+struct taskmanager_info_t
 {
-    TaskFunction_t
+    TaskFunction_t TaskFunction;
 };
 
 
