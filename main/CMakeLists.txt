@@ -1,2 +1,2 @@
-idf_component_register(SRCS "taskmanager.cpp" "message.c" "filesystem.c" "main.c"
+idf_component_register(SRCS "filesystem.cpp" "message.cpp" "main.cpp" "taskmanager.cpp"
                     INCLUDE_DIRS ".")
